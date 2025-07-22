@@ -1,11 +1,12 @@
-import { Heart, Code, Github, Linkedin, Twitter } from "lucide-react";
+import { Heart, Code, Github, Linkedin, Twitter, Instagram } from "lucide-react";
 
 const Footer = () => {
-  const socialLinks = [
-    { icon: Github, name: "GitHub", url: "https://github.com" },
-    { icon: Linkedin, name: "LinkedIn", url: "https://linkedin.com" },
-    { icon: Twitter, name: "Twitter", url: "https://twitter.com" }
+const socialLinks = [
+    { icon: Github, name: "GitHub", url: "https://github.com/Mohamadhossein4" },
+    { icon: Linkedin, name: "LinkedIn", url: "https://www.linkedin.com/in/mohamad-hossein-gholikhah-009032283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
+    { icon: Instagram, name: "Twitter", url: "https://instagram.com/org.mohamad.84" },
   ];
+
   return (
     <footer className="bg-navy text-white py-12">
       <div className="container mx-auto px-4">
