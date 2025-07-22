@@ -126,7 +126,7 @@ const Experience = () => {
           <div className="animate-fade-in ">
             <h3 className="text-3xl font-bold text-navy mb-8 text-center">تحصیلات</h3>
             {education.map((edu, index) => (
-              <Card key={index} className="mb-2 hover:shadow-medium  rounded-[310px] transition-all duration-300">
+              <Card key={index} className="mb-2 hover:shadow-medium  rounded-[30px] transition-all duration-300">
                 <CardContent className="p-6">
                   <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
                     <div>
