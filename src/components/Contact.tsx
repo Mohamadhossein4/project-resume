@@ -25,7 +25,7 @@ const Contact = () => {
       icon: Phone,
       title: "تلفن",
       value: "09034049743",
-      link: "tel:+989123456789",
+      link: "tel:+9034049743",
     },
     {
       icon: MapPin,
