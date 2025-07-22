@@ -4,7 +4,7 @@ import profileImage from "@/assets/profile-photo.webp";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-950 to-gray-300">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-900 to-gray-300">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-navy/5"></div>
