@@ -52,11 +52,27 @@ const socialLinks = [
               <h4 className="text-lg font-bold mb-4">اطلاعات تماس</h4>
               <div className="space-y-2 text-white/80">
                 <p>m.h.gholikhah@gmail.com</p>
-                <p className="-tracking-tight">9034049743</p>
+                <p className="-tracking-tight">09034049743</p>
                 <p>تهران، ایران</p>
               </div>
             </div>
           </div>
+          {/* Social Links */}
+                <div className="inline-block  mb-4 md:hidden">
+                  <div className="flex gap-4">
+                    {socialLinks.map((social, index) => (
+                      <a 
+                        key={index}
+                        href={social.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-12 h-12 bg-gray-700 hover:bg-blue-primary rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
+                      >
+                        <social.icon className="w-6 h-6 text-white" />
+                      </a>
+                    ))}
+                  </div>
+                </div>
 
           {/* Bottom Section */}
           <div className="border-t border-white/20 pt-8">
@@ -66,13 +82,13 @@ const socialLinks = [
                 <Heart className="w-4 h-4 text-red-400 animate-pulse" />
                 <span>و</span>
                 <Code className="w-4 h-4 text-blue-light" />
-                <span>توسط محمد حسین قلی خواه </span>
+                <span>توسط محمد حسین</span>
               </div>
               <div className=" text-white/60 text-sm">
                 © {new Date().getFullYear()} تمامی حقوق محفوظ است
               </div>
               {/* Social Links */}
-                <div className="inline-block lg:hidden">
+                <div className="hidden md:inline-block lg:hidden">
                   <div className="flex gap-4">
                     {socialLinks.map((social, index) => (
                       <a 

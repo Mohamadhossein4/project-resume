@@ -51,7 +51,7 @@ const Skills = () => {
             {/* Technical Skills */}
             <div className="animate-slide-in">
               <h3 className="text-2xl font-bold text-navy mb-8">مهارت‌های تکنیکی</h3>
-              <div className="space-y-6 xl:space-y-10">
+              <div className="space-y-6 lg:space-y-10">
                 {technicalSkills.map((skill, index) => (
                   <div key={index} className="space-y-2">
                     <div className="flex justify-between items-center">
@@ -104,7 +104,7 @@ const Skills = () => {
               </div>
 
               {/* Additional Info */}
-              <div className="mt-8  xl:mt-[60px] p-6 bg-gradient-to-tl from-blue-600 to-blue-200 rounded-3xl text-white">
+              <div className="mt-8  lg:mt-[60px] p-6 bg-gradient-to-tl from-blue-600 to-blue-200 rounded-3xl text-white">
                 <h4 className="text-lg font-bold mb-4">آماده یادگیری</h4>
                 <p className="text-white/90 leading-relaxed">
                   همیشه آماده یادگیری تکنولوژی‌های جدید و بروزرسانی مهارت‌هایم هستم. 
