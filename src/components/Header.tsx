@@ -38,7 +38,7 @@ const Header = () => {
     <header 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled 
-          ? "bg-navy/90 backdrop-blur-md border-b border-white/10 shadow-elegant" 
+          ? "bg-black/90 backdrop-blur-md border-b border-white/10 shadow-elegant" 
           : "bg-transparent"
       }`}
     >
@@ -51,10 +51,10 @@ const Header = () => {
             <button
               key={item.id}
               onClick={() => scrollToSection(item.id)}
-              className="text-white/90 text-xl hover:text-white transition-colors relative group"
+              className="text-white/90 text-xl hover:text-white hover:-translate-y-1 hover:scale-110 transition-colors relative group"
             >
               {item.label}
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-primary transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-primary transition-all duration-300 group-hover:w-full group-hover:bg-white"></span>
             </button>
           ))}
           <Button 

@@ -75,7 +75,7 @@ const About = () => {
                 {highlights.map((item, index) => (
                   <Card key={index} className="group bg-white rounded-3xl hover:shadow-medium transition-all duration-300 hover:-translate-y-2">
                     <CardContent className="p-6 text-center">
-                      <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                      <div className="w-12 h-12 bg-black/80 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                         <item.icon className="w-6 h-6 text-white" />
                       </div>
                       <h4 className="font-bold text-navy mb-2">{item.title}</h4>

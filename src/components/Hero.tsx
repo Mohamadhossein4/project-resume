@@ -4,7 +4,7 @@ import profileImage from "@/assets/profile-photo.webp";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-900 to-gray-300">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-black/90 to-gray-300">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-navy/5"></div>
@@ -64,7 +64,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-blue-primary to-transparent rounded-full blur-2xl opacity-50 scale-110"></div>
               <img 
                 src={profileImage} 
-                alt="علی حسینی - توسعه‌دهنده فول‌استک"
+                alt=" محمد حسین ثلی خواه - توسعه‌دهنده فول‌استک"
                 className="relative w-80 h-80 mt-10 lg:mt-0 lg:w-96 lg:h-96 rounded-full object-cover shadow-large border-4 border-white/20"
               />
               {/* Decorative Elements */}
